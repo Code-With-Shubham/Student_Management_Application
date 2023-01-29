@@ -1,0 +1,38 @@
+﻿@page
+@model Student_Management_Application.Pages.StudentModel
+@{
+}
+<html>
+    <body>
+<br /><br />
+<h2>Student Information Management System</h2>
+<br />
+<hr />
+<br />
+
+<form method="post">
+    <table>
+        <tr>
+            <td>UserID</td>
+            <td><input type="text" name="uid" id="uid" class="form-control"/></td>
+        </tr>
+        <tr>
+            <td>Password</td>
+            <td><input type="password" name="pswd" id="pswd" class="form-control" /></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="submit" value="Login" class="form-control"/></td>
+        </tr>
+    </table>
+    <br />
+    <hr />
+    <br />
+    
+</form>
+    <a class='btn btn-primary btn-sm' href='NewStudent'>New Student</a>
+    <a class='btn btn-primary btn-sm' href='DeleteStudent'>Delete Student</a>
+    <a class='btn btn-primary btn-sm' href='UpdateStudent'>Update Student</a>
+     <a class='btn btn-primary btn-sm' href='ShowStudent'>Show Students</a>
+</body>
+</html>f

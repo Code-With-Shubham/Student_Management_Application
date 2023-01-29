@@ -1,0 +1,48 @@
+﻿@page
+@model Student_Management_Application.Pages.NewStudentModel
+@{
+}
+
+<html>
+    <body>
+<br /><br />
+<h2>Registration Form</h2>
+<br />
+<hr />
+<br />
+
+<form method="post">
+    <table>
+        <tr>
+            <td>StudentID</td>
+            <td><input type="text" name="id" id="id" class="form-control"/></td>
+        </tr>
+        <tr>
+            <td>Password</td>
+            <td><input type="password" name="pswd" id="pswd" class="form-control" /></td>
+        </tr>
+
+        <tr>
+                <td>Name</td>
+                <td><input type="text" name="name" id="name" class="form-control"/></td>
+        </tr    >
+            <tr>
+            <td>Contact</td>
+                 <td><input type="text" name="con" id="con" class="form-control" /></td>
+            </tr>
+            <tr>
+                <td></td>
+            <td><input type="submit" value="Login" class="form-control"/></td>
+            </tr>
+       
+
+    </table>
+    <br />
+    <hr />
+    <br />
+
+</form>
+    <a class='btn btn-primary btn-sm' href='Index'>New Student</a>
+
+</body>
+</html>

@@ -1,0 +1,36 @@
+﻿@page
+@model Student_Management_Application.Pages.ShowStudentModel
+@{
+}
+
+
+<br>
+<h2>List of Clients</h2>
+<a class='btn btn-primary btn-sm' ' href='/Clients/Create'>New Client</a>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Student ID</th>
+            <th>Password</th>
+            <th>Name</th>
+            <th>Contact</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.se)
+        {
+            <tr>
+                <td>@item.id</td>
+                <td>@item.pswd</td>
+                <td>@item.name</td>
+                <td>@item.con</td>
+        
+                <td>
+                   
+
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
